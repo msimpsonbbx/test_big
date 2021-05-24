@@ -124,3 +124,6 @@ Code Snippet below explains the general usage of LZ4 compress library.
     // Release OpenCL objects
     // Release device buffers
     xlz.release();
+    
+    
+    //kjfkjf
