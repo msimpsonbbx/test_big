@@ -10,7 +10,7 @@ jobs:
   input: 
    artifact: 
     - xilinx_u200_xdma_201830_2.zip
-    - bbx/vitis-libraries
+    - public/vitis-libraries
   output:
    artifact:
     - Emulation-SW/build.sh
@@ -35,7 +35,7 @@ jobs:
   input: 
    artifact: 
     - xilinx_u200_xdma_201830_2.zip
-    - bbx/vitis-libraries
+    - public/vitis-libraries
   steps:  
    - run:
       name: Run Hardware Emulation Build
@@ -48,7 +48,7 @@ jobs:
   input: 
    artifact: 
     - xilinx_u200_xdma_201830_2.zip
-    - bbx/vitis-libraries
+    - public/vitis-libraries
   steps:
    - run:
       name: Build HW
